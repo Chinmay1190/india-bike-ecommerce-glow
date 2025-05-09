@@ -5,7 +5,7 @@ import { formatPrice, calculateDiscountPrice } from "@/data/products";
 import { useCart } from "@/context/cart-context";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Indian Rupee } from "lucide-react";
+import { IndianRupee } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -72,11 +72,11 @@ const ProductCard = ({ product, className }: ProductCardProps) => {
         <p className="text-sm text-muted-foreground mb-2">{product.category}</p>
         <div className="flex justify-between items-center">
           <div className="product-price">
-            <Indian Rupee className="h-3.5 w-3.5 mr-1" />
+            <IndianRupee className="h-3.5 w-3.5 mr-1" />
             {formatPrice(discountedPrice)}
             {product.discount && (
               <span className="text-xs text-muted-foreground line-through ml-2">
-                <Indian Rupee className="h-3 w-3 inline" />
+                <IndianRupee className="h-3 w-3 inline" />
                 {formatPrice(product.price)}
               </span>
             )}
