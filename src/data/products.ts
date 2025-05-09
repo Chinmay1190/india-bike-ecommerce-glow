@@ -1,4 +1,3 @@
-
 import { Product, Category, PaymentMethod } from "@/types";
 
 export const categories: Category[] = [
@@ -295,6 +294,266 @@ export const products: Product[] = [
       "https://images.unsplash.com/photo-1558980394-34764db076b4?ixlib=rb-4.0.3"
     ]
   },
+  {
+    id: "13",
+    brand: "Ducati",
+    model: "Streetfighter V4",
+    category: "naked",
+    price: 1995000,
+    description: "The Ducati Streetfighter V4 takes the raw power of the Panigale V4 and strips it down to create the ultimate super-naked motorcycle. With aggressive styling, potent performance, and advanced electronics, it's a street fighter in the truest sense.",
+    engine: "1103cc, V4",
+    power: "208 HP @ 13,000 rpm",
+    torque: "123 Nm @ 9,500 rpm",
+    weight: "178 kg (dry)",
+    featured: true,
+    newArrival: true,
+    stock: 3,
+    rating: 4.8,
+    imageUrl: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1611241443322-78b19f5a6f10?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1588325104532-89a319b99925?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "14",
+    brand: "Triumph",
+    model: "Daytona 765",
+    category: "sport",
+    price: 1385000,
+    description: "The Triumph Daytona 765 combines British engineering with racetrack DNA to deliver a precision supersport experience. With its responsive triple engine, agile chassis, and track-focused ergonomics, it's built for both road and circuit excellence.",
+    engine: "765cc, Triple",
+    power: "130 HP @ 12,250 rpm",
+    torque: "80 Nm @ 9,750 rpm",
+    weight: "189 kg (wet)",
+    featured: false,
+    discount: 7,
+    stock: 4,
+    rating: 4.6,
+    imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "15",
+    brand: "MV Agusta",
+    model: "F3 RR",
+    category: "sport",
+    price: 2450000,
+    description: "The MV Agusta F3 RR represents the pinnacle of Italian motorcycle artistry and performance. With its exquisite styling, sophisticated electronics, and race-bred triple engine, it delivers a riding experience that's as emotional as it is fast.",
+    engine: "798cc, Triple",
+    power: "155 HP @ 13,250 rpm",
+    torque: "88 Nm @ 10,100 rpm",
+    weight: "173 kg (dry)",
+    featured: false,
+    stock: 2,
+    rating: 4.7,
+    imageUrl: "https://images.unsplash.com/photo-1591584582830-209d4f431c4a?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1591584582830-209d4f431c4a?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1535525153412-5a42439a210d?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1568066932410-3a6141db4daa?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "16",
+    brand: "Royal Enfield",
+    model: "Classic 650",
+    category: "cruiser",
+    price: 350000,
+    description: "The Royal Enfield Classic 650 elevates the iconic Royal Enfield experience with a larger parallel-twin engine, enhanced performance, and timeless styling that pays homage to the brand's heritage while offering modern reliability and comfort.",
+    engine: "648cc, Parallel Twin",
+    power: "47 HP @ 7,250 rpm",
+    torque: "52 Nm @ 5,250 rpm",
+    weight: "213 kg (wet)",
+    featured: true,
+    discount: 10,
+    stock: 12,
+    rating: 4.4,
+    imageUrl: "https://images.unsplash.com/photo-1635071887236-a56dba32dc09?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1635071887236-a56dba32dc09?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1635593908815-41dd2b0fd502?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1626599837005-28be04afbe88?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "17",
+    brand: "Moto Guzzi",
+    model: "V85 TT",
+    category: "adventure",
+    price: 1550000,
+    description: "The Moto Guzzi V85 TT is a unique proposition in the adventure touring segment, combining classic Italian style with modern touring capability. With its distinctive transverse V-twin engine, shaft drive, and comfortable ergonomics, it's built for distinctive long-distance exploration.",
+    engine: "853cc, V-Twin",
+    power: "80 HP @ 7,750 rpm",
+    torque: "80 Nm @ 5,000 rpm",
+    weight: "229 kg (wet)",
+    featured: false,
+    newArrival: true,
+    stock: 5,
+    rating: 4.5,
+    imageUrl: "https://images.unsplash.com/photo-1627559141892-5cd77a9fb631?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1627559141892-5cd77a9fb631?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1568932711552-ed496d1b455e?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1568572933432-74a34aae9f50?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "18",
+    brand: "Zero",
+    model: "SR/F",
+    category: "naked",
+    price: 1975000,
+    description: "The Zero SR/F represents the cutting edge of electric motorcycle technology, delivering instant torque, silent operation, and zero emissions in a premium package. With its advanced connectivity, customizable power modes, and sleek design, it's the future of motorcycling available today.",
+    engine: "Electric (14.4 kWh)",
+    power: "110 HP @ 5,000 rpm",
+    torque: "190 Nm @ 1 rpm",
+    weight: "220 kg",
+    featured: true,
+    stock: 3,
+    rating: 4.6,
+    imageUrl: "https://images.unsplash.com/photo-1595876629762-38c73d029137?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1595876629762-38c73d029137?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1597079910443-60c58702d1fe?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1635694640039-6e877b51c5f4?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "19",
+    brand: "Yamaha",
+    model: "XMAX 300",
+    category: "touring",
+    price: 385000,
+    description: "The Yamaha XMAX 300 brings sport and practicality together in a premium mid-sized scooter. With its smooth engine, comfortable ergonomics, and generous storage space, it's the perfect urban companion that also excels on longer journeys.",
+    engine: "292cc, Single",
+    power: "28 HP @ 7,250 rpm",
+    torque: "29 Nm @ 5,750 rpm",
+    weight: "179 kg (wet)",
+    featured: false,
+    discount: 5,
+    stock: 8,
+    rating: 4.4,
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1685654150999-9d67fa2a2544?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "20",
+    brand: "Kawasaki",
+    model: "Z H2",
+    category: "naked",
+    price: 2150000,
+    description: "The Kawasaki Z H2 redefines the hypernaked category with its supercharged engine, delivering extraordinary performance in a stripped-down package. With its distinctive styling, balanced handling, and unmatched power delivery, it's a revolutionary motorcycle that pushes the boundaries of what's possible.",
+    engine: "998cc, Inline-4 Supercharged",
+    power: "200 HP @ 11,000 rpm",
+    torque: "137 Nm @ 8,500 rpm",
+    weight: "239 kg (wet)",
+    featured: true,
+    stock: 2,
+    rating: 4.8,
+    imageUrl: "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1558981285-6f0c94958bb6?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1603539444875-76e7684265f6?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1603539279078-4da6f4741918?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "21",
+    brand: "Norton",
+    model: "V4SV",
+    category: "sport",
+    price: 3450000,
+    description: "The Norton V4SV represents the rebirth of the iconic British brand with a no-compromise superbike that blends traditional craftsmanship with modern technology. Featuring a hand-built chassis, potent V4 engine, and exquisite details, it embodies exclusivity and performance.",
+    engine: "1200cc, V4",
+    power: "200 HP @ 12,500 rpm",
+    torque: "130 Nm @ 10,000 rpm",
+    weight: "193 kg (dry)",
+    featured: false,
+    newArrival: true,
+    stock: 1,
+    rating: 4.9,
+    imageUrl: "https://images.unsplash.com/photo-1609630875171-b1321377ee65?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1609630875171-b1321377ee65?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1615172282427-9a61fca7b64f?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1579801805668-927bf47be512?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "22",
+    brand: "CFMoto",
+    model: "700CL-X",
+    category: "naked",
+    price: 699000,
+    description: "The CFMoto 700CL-X brings premium features and styling at a value price point. With its spirited parallel-twin engine, modern electronics, and distinctive design, it challenges perceptions of what's possible from an emerging manufacturer in the mid-capacity naked segment.",
+    engine: "693cc, Parallel Twin",
+    power: "73 HP @ 8,500 rpm",
+    torque: "68 Nm @ 6,500 rpm",
+    weight: "196 kg (wet)",
+    featured: false,
+    discount: 12,
+    stock: 7,
+    rating: 4.3,
+    imageUrl: "https://images.unsplash.com/photo-1581092335397-9fa341090291?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1581092335397-9fa341090291?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1635073908681-b31dd255916a?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1635071887412-e755518ae2e9?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "23",
+    brand: "TVS",
+    model: "Apache RR 310",
+    category: "sport",
+    price: 269000,
+    description: "The TVS Apache RR 310 represents the pinnacle of Indian motorcycle engineering, delivering track-inspired performance in a remarkably accessible package. With its advanced features, sophisticated styling, and exceptional handling, it offers a premium riding experience at an attainable price point.",
+    engine: "312.2cc, Single",
+    power: "34 HP @ 9,700 rpm",
+    torque: "27.3 Nm @ 7,700 rpm",
+    weight: "174 kg (wet)",
+    featured: false,
+    stock: 10,
+    rating: 4.5,
+    imageUrl: "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1558980394-4c7c9299fe96?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558980395-34764db076b4?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558980664-1db506751c6c?ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    id: "24",
+    brand: "Benelli",
+    model: "TRK 502X",
+    category: "adventure",
+    price: 550000,
+    description: "The Benelli TRK 502X brings accessible adventure to riders with its commanding presence, comfortable ergonomics, and robust construction. Designed to tackle varied terrain while maintaining everyday usability, it's an approachable gateway to the world of adventure motorcycling.",
+    engine: "500cc, Parallel Twin",
+    power: "47 HP @ 8,500 rpm",
+    torque: "46 Nm @ 6,000 rpm",
+    weight: "235 kg (wet)",
+    featured: true,
+    discount: 8,
+    stock: 6,
+    rating: 4.2,
+    imageUrl: "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-4.0.3",
+    images: [
+      "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558980664-769d59546b3d?ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558980394-34764db076b4?ixlib=rb-4.0.3"
+    ]
+  }
 ];
 
 // Generate 48 more products to reach 60 total
